@@ -1,18 +1,18 @@
 .top {
-    background: linear-gradient(#f0eded, #afcfeb);
+        background: linear-gradient(#e6e3e3, #75afe1);
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: rgb(41, 43, 42);
 }
 
-.nav-link {
+/*.nav-link {
     color: black;
 }
 
 .nav-link:hover {
     color: rgb(98, 98, 112);
-}
+}*/
 
 html {
     scroll-behavior: smooth;
@@ -29,15 +29,27 @@ html {
 }
 
 .expimg {
-    height: 250px;
+    height: 200px;
     width: 200px;
-    object-fit: contain;
+    border-radius: 5px; 
+    margin : 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .expimg {
+        filter: brightness(90%);
+    }
+    .top {
+        background: linear-gradient(#2a2727, #106cbc);
+    }
 }
 
 .navbar-brand {
     color: black;
+    padding-top: 8px;
+    padding-left: 5px;
 }
 
-.expcard {
+/*.expcard {
     background-color: white;
-}
+}*/

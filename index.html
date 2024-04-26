@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme = "">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
     <section class="top">
         <nav class="bg-transparent navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img
+            <a class="navbar-brand fw-medium text-body-emphasis" href="#"><img
               src="images/R.png"
               alt=""
               height="40"
@@ -43,7 +43,7 @@
                   <a href="assets/Resume.pdf" class="nav-link">Resume</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Contact me</a>
+                  <a href="#contact" class="nav-link">Contact me</a>
                 </li>
               </ul>
             </div>
@@ -75,69 +75,55 @@
       <div class="pt-4 pb-3 my-5 text-center rounded-3">
         <h1 class="text-body-emphasis">Experience</h1>
       </div>
-      <main class="container">
-        <div class="row mb-2">
-          <div class="col-lg-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative expcard"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary-emphasis"
-                  >Frontend Development Intern</strong
-                >
-                <h3 class="mb-0"><a style = "text-decoration: none; color: black;" href="https://www.geogo.in/">Geogo</a></h3>
-                <div class="mb-1 text-body-secondary">
-                  May 3, 2024 - Present
-                </div>
-                <p class="card-text mb-auto">
-                </p>
-                <a
+      <div class="container">
+      <div class="row mb-2">
+        <div class="col-lg-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis">Frontend Development Intern</strong>
+              <h3 class="mb-0"><a style = "text-decoration: none; color: inherit" href="https://www.geogo.in/">Geogo</a></h3>
+              <div class="mb-1 text-body-secondary">May 3, 2024 - Present</div>
+              <p class="card-text mb-auto"></p>
+              <a
                   href="#"
                   class="icon-link gap-1 icon-link-hover"
                 >
                   View certificate
                   <img src="images/chevron-right.svg" alt="">
                 </a>
-              </div>
-              <div class="col-auto d-lg-block">
-                <a href="https://www.geogo.in/"><img
-                  class="expimg"
-                  src="images/geogo_technologies_logo.jpg"
-                  alt=""
-                /></a>
-              </div>
+            </div>
+            <div class="col-auto d-lg-block">
+              <a href="https://www.geogo.in/"><img
+                class="expimg"
+                src="images/geogo_technologies_logo.jpg"
+                alt=""/></a>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative expcard"
-            >
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary-emphasis"
-                  >Data Analytics Intern</strong
-                >
-                <h3 class="mb-0"><a style = "text-decoration: none; color: black;" href="https://www.ibm.com/in-en">IBM</a></h3>
-                <div class="mb-1 text-body-secondary">
-                  Nov 6, 2023 - Nov 20, 2023
-                </div>
-                <p class="card-text mb-auto">
-                </p>
-                <a
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Data Analytics Intern</strong>
+              <h3 class="mb-0"><a style = "text-decoration: none; color: inherit;" href="https://www.ibm.com/in-en">IBM</a></h3>
+              <div class="mb-1 text-body-secondary">Nov 6, 2023 - Nov 20, 2023</div>
+              <p class="mb-auto"></p>
+              <a
                   href="assets/Micro-Internship Completion Certificate.pdf"
                   class="icon-link gap-1 icon-link-hover"
                 >
                   View certificate
                   <img src="images/chevron-right.svg" alt="">
                 </a>
-              </div>
-              <div class="col-auto d-lg-block">
-                <a href="https://www.ibm.com/in-en"><img
-                  class="expimg" src="images/ibm.png" alt="" /></a>
-              </div>
+            </div>
+            <div class="col-auto d-lg-block">
+              <a href="https://www.ibm.com/in-en"><img
+                class="expimg" src="images/ibm.png" alt=""/></a>
             </div>
           </div>
         </div>
-      </main>
+      </div>
+    </div>
+     
     </section>
 
     <section id="edu">
@@ -202,10 +188,21 @@
     </section>
 
     <section id = "contact">
-      <div class="pt-4 pb-3 my-5 text-center rounded-3">
-        <h1 class="text-body-emphasis">Get in touch</h1>
+      <div class="container my-5">
+        <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+          <button type="button" class="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button>
+          <svg xmlns="http://www.w3.org/2000/svg" style = "margin-bottom: 20px;" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+          </svg>
+          <h1 class="text-body-emphasis">Get in touch</h1>
+          <p class="col-lg-6 mx-auto mb-4">
+            Want to collaborate or just want to say hi?
+          </p>
+          <a href = "mailto:rongit.mukherjee@gmail.com"><button class="btn btn-primary px-5 mb-5" type="button">
+            Let's talk
+          </button></a>
+        </div>
       </div>
-
     </section>
 
     <section id = "foot">
@@ -229,5 +226,24 @@
       </footer>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      // Function to set data-bs-theme attribute based on system color scheme
+      function setThemeBasedOnSystemColorScheme() {
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        const htmlElement = document.documentElement; // You can set the attribute on <html> or <body>
+  
+        if (prefersDarkScheme.matches) {
+          htmlElement.setAttribute('data-bs-theme', 'dark');
+        } else {
+          htmlElement.removeAttribute('data-bs-theme');
+        }
+      }
+  
+      // Set the theme when the page loads
+      document.addEventListener('DOMContentLoaded', setThemeBasedOnSystemColorScheme);
+  
+      // Optionally, you can also listen for system theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setThemeBasedOnSystemColorScheme);
+    </script>
   </body>
 </html>
