@@ -49,6 +49,7 @@ html {
     padding-left: 5px;
 }
 
-/*.expcard {
-    background-color: white;
-}*/
+.card > * {
+    text-decoration: none;
+    color: inherit;
+}
